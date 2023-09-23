@@ -1,0 +1,18 @@
+.eays-cargo-slider .swiper-pagination {
+  @apply relative mt-36  justify-between items-center w-full h-2 hidden lg:flex;
+}
+
+.eays-cargo-slider .swiper-pagination-bullet {
+  @apply w-1/5 h-2 border-2 border-solid  border-white rounded-3xl bg-lightDark bg-opacity-50;
+}
+
+.eays-cargo-slider .swiper-pagination-bullet-active {
+  @apply bg-primary;
+}
+
+.eays-cargo-slider .bullet-text {
+  @apply absolute lg:-top-10 xl:-top-6;
+
+  width: 150%;
+  left: calc(-25% + 0.5rem); /* 0.5rem = 1/2 of bullet width (1rem) */
+}
